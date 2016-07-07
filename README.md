@@ -45,7 +45,7 @@ Our deli is one of the busiest delis in New York City (therefore one of the busi
 	* This function should take no arguments but return back a `String`.
 	* The `String` to be returned back is based on the following conditions:
 		* If the line is empty: "The line is currently empty."
-		* Otherwise, return a `String` beginning with the "The line is:", and appending every customer in the line on a new line `\n` beginnign with their number in the line. For example, if our line was represented as:
+		* Otherwise, return a `String` beginning with the "The line is:", and appending every customer in the line on a new line `\n` beginning with their number in the line. For example, if our line was represented as:
 		
 ```swift
 var line = ["Albert Einstein", "Cher", "Neil deGrasse Tyson", "Yoshi"]
@@ -62,3 +62,5 @@ The `String` to be returned should look like this:
 		
 
 [View this lesson on Learn.co](https://learn.co/lessons/ArrayChallengeTwo)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-arrayChallengeToo-lab'>Array Challenge Deuce Lab</a> on Learn.co and start learning to code for free.</p>
