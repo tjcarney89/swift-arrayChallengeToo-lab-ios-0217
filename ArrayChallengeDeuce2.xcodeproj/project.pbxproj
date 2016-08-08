@@ -13,7 +13,7 @@
 		5B3FB6BF1D2EABB1009B8A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3FB6BD1D2EABB1009B8A73 /* Main.storyboard */; };
 		5B3FB6C11D2EABB1009B8A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3FB6C01D2EABB1009B8A73 /* Assets.xcassets */; };
 		5B3FB6C41D2EABB1009B8A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3FB6C21D2EABB1009B8A73 /* LaunchScreen.storyboard */; };
-		5B3FB6CF1D2EABB1009B8A73 /* ArrayChallengeDeuce2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB6CE1D2EABB1009B8A73 /* ArrayChallengeDeuce2Tests.swift */; };
+		7DF33B0E1D58CEE80071BA68 /* DeliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF33B0D1D58CEE80071BA68 /* DeliTests.swift */; };
 		DD3C137DF7CACAEECA99746F /* Pods_ArrayChallengeDeuce2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3715432A2AA361FA661DB7 /* Pods_ArrayChallengeDeuce2.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +38,8 @@
 		5B3FB6C31D2EABB1009B8A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B3FB6C51D2EABB1009B8A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B3FB6CA1D2EABB1009B8A73 /* ArrayChallengeDeuce2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrayChallengeDeuce2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B3FB6CE1D2EABB1009B8A73 /* ArrayChallengeDeuce2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayChallengeDeuce2Tests.swift; sourceTree = "<group>"; };
 		5B3FB6D01D2EABB1009B8A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF33B0D1D58CEE80071BA68 /* DeliTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliTests.swift; sourceTree = "<group>"; };
 		8919DB629B329CFCF898A5F5 /* Pods-ArrayChallengeDeuce2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrayChallengeDeuce2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArrayChallengeDeuce2Tests/Pods-ArrayChallengeDeuce2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F3715432A2AA361FA661DB7 /* Pods_ArrayChallengeDeuce2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArrayChallengeDeuce2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C015B63D97E2D111B71366E0 /* Pods-ArrayChallengeDeuce2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrayChallengeDeuce2.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArrayChallengeDeuce2/Pods-ArrayChallengeDeuce2.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		5B3FB6CD1D2EABB1009B8A73 /* ArrayChallengeDeuce2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5B3FB6CE1D2EABB1009B8A73 /* ArrayChallengeDeuce2Tests.swift */,
+				7DF33B0D1D58CEE80071BA68 /* DeliTests.swift */,
 				5B3FB6D01D2EABB1009B8A73 /* Info.plist */,
 			);
 			path = ArrayChallengeDeuce2Tests;
@@ -345,7 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3FB6CF1D2EABB1009B8A73 /* ArrayChallengeDeuce2Tests.swift in Sources */,
+				7DF33B0E1D58CEE80071BA68 /* DeliTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
