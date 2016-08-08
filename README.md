@@ -14,8 +14,6 @@
 
 Lets pretend for this lab that we own a deli.
 
-![deli](http://i.imgur.com/4CElvfV.png?1)
-
 Our deli is one of the busiest delis in New York City (therefore one of the busiest on Earth). Our job is to create a system that represents a line. Someone enters the store, they enter our line. Our server then needs to able to state "Now serving x!" x being the individuals name. There's one catch! If our customer is either Meg Ryan or Billy Crystal, they will jump to the front of the line.
 
 
@@ -58,6 +56,10 @@ The `String` to be returned should look like this:
 2. Cher  
 3. Neil deGrasse Tyson  
 4. Yoshi"
+
+
+![deli](http://i.imgur.com/4CElvfV.png?1)
+
 
 		
 
