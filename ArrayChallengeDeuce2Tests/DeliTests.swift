@@ -58,7 +58,7 @@ class DeliSpec: QuickSpec {
         describe("Normal person walking into the deli") {
             it("Should perform the approrpiate actions (according to the instructions) when someone walks into the deli") {
                 
-                // Establishing a line with 5 people on it before Jim walks in.
+                // Establishing a line with 4 people on it before Jim walks in.
                 testVC.deliLine = ["Rob", "Catherine", "Paul", "Dom"]
                 
                 let jimGreeting = testVC.addNameToDeliLine("Jim")
