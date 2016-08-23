@@ -4,6 +4,7 @@
 
 > [to waiter] I'll have what she's having. -[Estelle Reiner](https://en.wikipedia.org/wiki/Estelle_Reiner)
 
+ 
 ## Learning Objectives
 
 - Write a method that takes in an array, performs some checks and returns a new array.
@@ -62,9 +63,5 @@ The `String` to be returned should look like this:
 
 ![deli](http://i.imgur.com/4CElvfV.png?1)
 
-
-		
-
-[View this lesson on Learn.co](https://learn.co/lessons/ArrayChallengeTwo)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-arrayChallengeToo-lab'>Array Challenge Deuce Lab</a> on Learn.co and start learning to code for free.</p>
