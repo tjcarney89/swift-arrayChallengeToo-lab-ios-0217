@@ -37,7 +37,7 @@ Our deli is one of the busiest delis in New York City (therefore one of the busi
 * **2**. Implement this function - `nowServing()`
 	* It should take in no arguments but return back a `String`.
 	* In its implementation the `String` that is returned is based on the following conditions (x represents the individuals name):
-		* If the line is empty: "There is no-one to be served."
+		* If the line is empty: "There is no one to be served."
 		* If the line isn't empty: "Now serving x!"
 	* This function should do one more thing. It should remove the individual from the deliLine that it's about to serve.
 	
