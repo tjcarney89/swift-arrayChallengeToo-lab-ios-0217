@@ -13,8 +13,6 @@
 
 ## Instructions
 
-**NOTE** - Instructions #2 and #3 have no tests written for them (yet). As of right now, if you're reading this note it means that only Instruction #1 has tests associated with it.
-
 Lets pretend for this lab that we own a deli.
 
 Our deli is one of the busiest delis in New York City (therefore one of the busiest on Earth). Our job is to create a system that represents a line. Someone enters the store, they enter our line. Our server then needs to able to state "Now serving x!" x being the individuals name. There's one catch! If our customer is either Meg Ryan or Billy Crystal, they will jump to the front of the line.
