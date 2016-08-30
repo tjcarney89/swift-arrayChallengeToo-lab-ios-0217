@@ -75,5 +75,102 @@ class DeliSpec: QuickSpec {
                 
             }
         }
+        
+        describe("nowServing()") {
+            it("Should remove the first name in the line.") {
+                
+                // Establishing a line with 3 people on it before Rob is called.
+                testVC.deliLine = ["Rob", "Catherine", "Paul"]
+                
+                testVC.nowServing()
+                
+                let servedLine = testVC.deliLine
+                
+                let expextedLine = ["Catherine", "Paul"]
+                
+                expect(servedLine).to(equal(expextedLine))
+                
+            }
+        }
+        
+        describe("nowServing()") {
+            it("Should remove one name each time it is called.") {
+                
+                // Establishing a line with 3 people on it before nowServing() is called twice.
+                testVC.deliLine = ["Rob", "Catherine", "Paul"]
+                
+                let startingCountOfLine = testVC.deliLine.count
+                
+                testVC.nowServing()
+                testVC.nowServing()
+                
+                let endingCountOfLine = testVC.deliLine.count
+                let countDifference = startingCountOfLine - endingCountOfLine
+                
+                expect(countDifference).to(equal(2))
+                
+            }
+        }
+        
+        describe("nowServing()") {
+            it("Should return the correct customer name.") {
+                
+                // Establishing a line with 3 people on it before Rob is called.
+                testVC.deliLine = ["Rob", "Catherine", "Paul"]
+                
+                let servingRob = testVC.nowServing()
+                
+                let expectedRob = "Now serving Rob!"
+                
+                expect(servingRob).to(equal(expectedRob))
+                
+            }
+        }
+        
+        describe("nowServing()") {
+            it("Should return the appropriate string if the line is empty.") {
+                
+                // Establishing a line with 3 people on it before Rob is called.
+                testVC.deliLine = []
+                
+                let servingNoOne = testVC.nowServing()
+                
+                let expectedNoOne = "There is no one to be served."
+                
+                expect(servingNoOne).to(equal(expectedNoOne))
+                
+            }
+        }
+        
+        describe("deliLineDescription()") { 
+            it("Should return the appropriate description with names of customers.") {
+                
+                // Establishing a line with 4 people on it before .
+                testVC.deliLine = ["Rob", "Catherine", "Paul", "Dom"]
+                
+                let description = testVC.deliLineDescription()
+                
+                let expectedDescription = "The line is:\n1. Rob\n2. Catherine\n3. Paul\n4. Dom"
+                
+                expect(description).to(equal(expectedDescription))
+                
+            }
+        }
+        
+        describe("deliLineDescription()") {
+            it("Should return the appropriate description when the line is empty.") {
+                
+                // Establishing a line with 4 people on it before .
+                testVC.deliLine = []
+                
+                let emptyDescription = testVC.deliLineDescription()
+                
+                let expectedEmptyDescription = "The line is currently empty."
+                
+                expect(emptyDescription).to(equal(expectedEmptyDescription))
+                
+            }
+        }
+        
     }
 }
