@@ -29,7 +29,7 @@ Our deli is one of the busiest delis in New York City (therefore one of the busi
 		* If the person is first in line: "Welcome x, you're first in line!"
 		* If the persons name is Billy Crystal: "Welcome Billy! You can sit wherever you like."
 		* If the persons name is Meg Ryan: "Welcome Meg! You can sit wherever you like."
-		* Every other situation: "Welcome x, you're number y in line"
+		* Every other situation: "Welcome x, you're number y in line."
 		
 
 * **2**. Implement this function - `nowServing()`
