@@ -19,7 +19,7 @@ Our deli is one of the busiest delis in New York City (therefore one of the busi
 
 
 
-* **1**. Implement this function - `addNameToDeliLine(name:)` 
+* **1**. Implement this function - `addNameToDeliLine(_:)` 
 	* It should take in a `String` as one of its arguments (labeled as name) and return a `String`. 
 	* In its implementation, it should add the name passed into this function to the `deliLine` property on the `ViewController` with a few conditions:
 		* If the persons name is Billy Crystal, they should be positioned at the front of the line.
