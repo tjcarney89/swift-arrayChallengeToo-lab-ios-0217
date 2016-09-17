@@ -1,6 +1,0 @@
-framework module Pods_ArrayChallengeDeuce2Tests {
-  umbrella header "Pods-ArrayChallengeDeuce2Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		471BDD8B786472DDFFD555F7 /* Pods_ArrayChallengeDeuce2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2143586F99D89FD0F080E1 /* Pods_ArrayChallengeDeuce2Tests.framework */; };
 		5B3FB6BA1D2EABB1009B8A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB6B91D2EABB1009B8A73 /* AppDelegate.swift */; };
 		5B3FB6BC1D2EABB1009B8A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB6BB1D2EABB1009B8A73 /* ViewController.swift */; };
 		5B3FB6BF1D2EABB1009B8A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3FB6BD1D2EABB1009B8A73 /* Main.storyboard */; };
 		5B3FB6C11D2EABB1009B8A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3FB6C01D2EABB1009B8A73 /* Assets.xcassets */; };
 		5B3FB6C41D2EABB1009B8A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3FB6C21D2EABB1009B8A73 /* LaunchScreen.storyboard */; };
-		7DF33B0E1D58CEE80071BA68 /* DeliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF33B0D1D58CEE80071BA68 /* DeliTests.swift */; };
-		DD3C137DF7CACAEECA99746F /* Pods_ArrayChallengeDeuce2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3715432A2AA361FA661DB7 /* Pods_ArrayChallengeDeuce2.framework */; };
+		7D775D8B1D8D8F87009EEF3A /* Deli.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D775D8A1D8D8F87009EEF3A /* Deli.swift */; };
+		7D775D8D1D8D96C8009EEF3A /* DeliTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D775D8C1D8D96C8009EEF3A /* DeliTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E38198D6422CBCF863C6519 /* Pods-ArrayChallengeDeuce2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrayChallengeDeuce2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArrayChallengeDeuce2/Pods-ArrayChallengeDeuce2.debug.xcconfig"; sourceTree = "<group>"; };
-		1B017FD32CD3636247AA1B8F /* Pods-ArrayChallengeDeuce2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrayChallengeDeuce2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArrayChallengeDeuce2Tests/Pods-ArrayChallengeDeuce2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5B3FB6B61D2EABB1009B8A73 /* ArrayChallengeDeuce2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrayChallengeDeuce2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3FB6B91D2EABB1009B8A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B3FB6BB1D2EABB1009B8A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,11 +36,8 @@
 		5B3FB6C51D2EABB1009B8A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B3FB6CA1D2EABB1009B8A73 /* ArrayChallengeDeuce2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrayChallengeDeuce2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3FB6D01D2EABB1009B8A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DF33B0D1D58CEE80071BA68 /* DeliTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliTests.swift; sourceTree = "<group>"; };
-		8919DB629B329CFCF898A5F5 /* Pods-ArrayChallengeDeuce2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrayChallengeDeuce2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArrayChallengeDeuce2Tests/Pods-ArrayChallengeDeuce2Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8F3715432A2AA361FA661DB7 /* Pods_ArrayChallengeDeuce2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArrayChallengeDeuce2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C015B63D97E2D111B71366E0 /* Pods-ArrayChallengeDeuce2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrayChallengeDeuce2.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArrayChallengeDeuce2/Pods-ArrayChallengeDeuce2.release.xcconfig"; sourceTree = "<group>"; };
-		FB2143586F99D89FD0F080E1 /* Pods_ArrayChallengeDeuce2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArrayChallengeDeuce2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D775D8A1D8D8F87009EEF3A /* Deli.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deli.swift; sourceTree = "<group>"; };
+		7D775D8C1D8D96C8009EEF3A /* DeliTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD3C137DF7CACAEECA99746F /* Pods_ArrayChallengeDeuce2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				471BDD8B786472DDFFD555F7 /* Pods_ArrayChallengeDeuce2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,8 +61,6 @@
 		13B4A2B3446BAED021B9F632 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8F3715432A2AA361FA661DB7 /* Pods_ArrayChallengeDeuce2.framework */,
-				FB2143586F99D89FD0F080E1 /* Pods_ArrayChallengeDeuce2Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,7 +71,6 @@
 				5B3FB6B81D2EABB1009B8A73 /* ArrayChallengeDeuce2 */,
 				5B3FB6CD1D2EABB1009B8A73 /* ArrayChallengeDeuce2Tests */,
 				5B3FB6B71D2EABB1009B8A73 /* Products */,
-				A1355916697F5031F3891BB9 /* Pods */,
 				13B4A2B3446BAED021B9F632 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -98,7 +87,7 @@
 		5B3FB6B81D2EABB1009B8A73 /* ArrayChallengeDeuce2 */ = {
 			isa = PBXGroup;
 			children = (
-				5B3FB6BB1D2EABB1009B8A73 /* ViewController.swift */,
+				7D775D8A1D8D8F87009EEF3A /* Deli.swift */,
 				5B3FB6D91D2EAD22009B8A73 /* Supporting Files */,
 			);
 			path = ArrayChallengeDeuce2;
@@ -107,7 +96,7 @@
 		5B3FB6CD1D2EABB1009B8A73 /* ArrayChallengeDeuce2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				7DF33B0D1D58CEE80071BA68 /* DeliTests.swift */,
+				7D775D8C1D8D96C8009EEF3A /* DeliTest.swift */,
 				5B3FB6D01D2EABB1009B8A73 /* Info.plist */,
 			);
 			path = ArrayChallengeDeuce2Tests;
@@ -117,23 +106,13 @@
 			isa = PBXGroup;
 			children = (
 				5B3FB6B91D2EABB1009B8A73 /* AppDelegate.swift */,
+				5B3FB6BB1D2EABB1009B8A73 /* ViewController.swift */,
 				5B3FB6BD1D2EABB1009B8A73 /* Main.storyboard */,
 				5B3FB6C01D2EABB1009B8A73 /* Assets.xcassets */,
 				5B3FB6C21D2EABB1009B8A73 /* LaunchScreen.storyboard */,
 				5B3FB6C51D2EABB1009B8A73 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A1355916697F5031F3891BB9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0E38198D6422CBCF863C6519 /* Pods-ArrayChallengeDeuce2.debug.xcconfig */,
-				C015B63D97E2D111B71366E0 /* Pods-ArrayChallengeDeuce2.release.xcconfig */,
-				8919DB629B329CFCF898A5F5 /* Pods-ArrayChallengeDeuce2Tests.debug.xcconfig */,
-				1B017FD32CD3636247AA1B8F /* Pods-ArrayChallengeDeuce2Tests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,12 +122,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B3FB6D31D2EABB1009B8A73 /* Build configuration list for PBXNativeTarget "ArrayChallengeDeuce2" */;
 			buildPhases = (
-				0DBC7907DCE83D62A178560D /* [CP] Check Pods Manifest.lock */,
 				5B3FB6B21D2EABB1009B8A73 /* Sources */,
 				5B3FB6B31D2EABB1009B8A73 /* Frameworks */,
 				5B3FB6B41D2EABB1009B8A73 /* Resources */,
-				17EB72A5262134789A929723 /* [CP] Embed Pods Frameworks */,
-				6C93DB563E6FC268113B0C96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,12 +139,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B3FB6D61D2EABB1009B8A73 /* Build configuration list for PBXNativeTarget "ArrayChallengeDeuce2Tests" */;
 			buildPhases = (
-				25B1A448C889A896D76F7AED /* [CP] Check Pods Manifest.lock */,
 				5B3FB6C61D2EABB1009B8A73 /* Sources */,
 				5B3FB6C71D2EABB1009B8A73 /* Frameworks */,
 				5B3FB6C81D2EABB1009B8A73 /* Resources */,
-				0FB6C34DD98C41B6B290B746 /* [CP] Embed Pods Frameworks */,
-				2B388AA8CB99BB01B1622A4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,9 +165,11 @@
 				TargetAttributes = {
 					5B3FB6B51D2EABB1009B8A73 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					5B3FB6C91D2EABB1009B8A73 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 5B3FB6B51D2EABB1009B8A73;
 					};
 				};
@@ -238,99 +213,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		0DBC7907DCE83D62A178560D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		0FB6C34DD98C41B6B290B746 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArrayChallengeDeuce2Tests/Pods-ArrayChallengeDeuce2Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		17EB72A5262134789A929723 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArrayChallengeDeuce2/Pods-ArrayChallengeDeuce2-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		25B1A448C889A896D76F7AED /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		2B388AA8CB99BB01B1622A4D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArrayChallengeDeuce2Tests/Pods-ArrayChallengeDeuce2Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6C93DB563E6FC268113B0C96 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArrayChallengeDeuce2/Pods-ArrayChallengeDeuce2-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		5B3FB6B21D2EABB1009B8A73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -338,6 +220,7 @@
 			files = (
 				5B3FB6BC1D2EABB1009B8A73 /* ViewController.swift in Sources */,
 				5B3FB6BA1D2EABB1009B8A73 /* AppDelegate.swift in Sources */,
+				7D775D8B1D8D8F87009EEF3A /* Deli.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DF33B0E1D58CEE80071BA68 /* DeliTests.swift in Sources */,
+				7D775D8D1D8D96C8009EEF3A /* DeliTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,50 +347,50 @@
 		};
 		5B3FB6D41D2EABB1009B8A73 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E38198D6422CBCF863C6519 /* Pods-ArrayChallengeDeuce2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ArrayChallengeDeuce2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.ArrayChallengeDeuce2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5B3FB6D51D2EABB1009B8A73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C015B63D97E2D111B71366E0 /* Pods-ArrayChallengeDeuce2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ArrayChallengeDeuce2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.ArrayChallengeDeuce2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		5B3FB6D71D2EABB1009B8A73 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8919DB629B329CFCF898A5F5 /* Pods-ArrayChallengeDeuce2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ArrayChallengeDeuce2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.ArrayChallengeDeuce2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArrayChallengeDeuce2.app/ArrayChallengeDeuce2";
 			};
 			name = Debug;
 		};
 		5B3FB6D81D2EABB1009B8A73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B017FD32CD3636247AA1B8F /* Pods-ArrayChallengeDeuce2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ArrayChallengeDeuce2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.ArrayChallengeDeuce2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArrayChallengeDeuce2.app/ArrayChallengeDeuce2";
 			};
 			name = Release;

@@ -10,17 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // This represents our deliLine.
-    var deliLine: [String] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
     
-    
-    // Create your methods here
-
-
 }
 
