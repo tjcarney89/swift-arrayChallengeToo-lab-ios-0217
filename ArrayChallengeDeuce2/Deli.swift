@@ -16,22 +16,24 @@ class Deli {
     // 1
     func addNameToLine(name: String) -> String {
                 
-       
+       // TODO: Implement this function.
         
     }
+    
     
     // 2
     func nowServing() -> String {
         
-       
-        
+        // TODO: Implement this function.
+
     }
+    
     
     // 3
     func lineDescription() -> String {
         
-       
-        
+        // TODO: Implement this function.
+
     }
     
 }
