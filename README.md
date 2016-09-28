@@ -1,4 +1,4 @@
-# Array Challenge Deuce
+# Array Challenge Deuce Lab
 
 ![haveWhatSheshaving](http://i.imgur.com/anXw03E.png?1)
 
@@ -60,7 +60,8 @@ The `String` to be returned should look like this:
 1. Albert Einstein  
 2. Cher  
 3. Neil deGrasse Tyson  
-4. Yoshi"
+4. Yoshi" 
+
 
 
 ![deli](http://i.imgur.com/4CElvfV.png?1)
